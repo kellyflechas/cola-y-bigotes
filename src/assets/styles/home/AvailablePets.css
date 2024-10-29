@@ -1,0 +1,30 @@
+.available-pets {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.pet-card {
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.dog {
+  background-color: #FFC107;
+}
+
+.cat {
+  background-color: #29C9D8;
+}
+
+.pet-card button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4E5EAA;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

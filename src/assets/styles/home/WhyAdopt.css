@@ -1,0 +1,25 @@
+.why-adopt {
+  text-align: center;
+  padding: 20px;
+}
+
+.why-adopt h2 {
+  color: #4E5EAA;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.benefit-card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.benefit-card h3 {
+  color: #4E5EAA;
+}

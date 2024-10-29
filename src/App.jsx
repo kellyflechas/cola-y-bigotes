@@ -1,38 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/home/Header';
+import SearchBar from './components/home/SearchBar';
+import AvailablePets from './components/home/AvailablePets';
+import WhyAdopt from './components/home/WhyAdopt';
+import './App.css';  // Archivo CSS general opcional
 
-import './App.css'
-import NavbarDog from './components/adoptDogs/NavbarDog'
-import Dogs from './components/adoptDogs/Dogs';
+const App = () => (
+  <div className="App">
+    <Header />
+    <main>
+      <SearchBar />
+      <AvailablePets />
+      <WhyAdopt />
+    </main>
+  </div>
+);
 
-
-function App() {
- 
-    return (
-      <div className="App">
-        <section className='"container-md'>
-          <Router>
-            <Routes>
-              <Route path="/" element={
-        <div>
-        <NavbarDog/>
-        <Dogs/>
-        
-  
-        </div>
-              }/>
-     
-  
-  </Routes>  
-  </Router>    
-        
-        </section>
-  
-        
-  
-      </div>
-      )
-    }
-  
-
-export default App
+export default App;
