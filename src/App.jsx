@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarDog from './components/adoptDogs/HeaderDogs';
+import ApiDogs from './components/adoptDogs/ApiDogs';
+import SearchDogs from './components/adoptDogs/SearchDogs';
 
-import './App.css'
-import NavbarDog from './components/adoptDogs/NavbarDog'
-import Dogs from './components/adoptDogs/Dogs';
-
-
+ 
 function App() {
  
     return (
@@ -16,8 +16,9 @@ function App() {
               <Route path="/" element={
         <div>
         <NavbarDog/>
-        <Dogs/>
-        
+        <SearchDogs/>
+        <ApiDogs/>
+       
   
         </div>
               }/>

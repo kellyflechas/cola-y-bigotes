@@ -1,0 +1,100 @@
+/*Navbar*/
+.bg-body-tertiary img{
+    width: 150px;
+}
+.Container{
+    background-color: rgb(23, 20, 20);
+}
+
+.me-auto{
+    margin-left:  850px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*DOGSHOME*/
+
+.container-total h2{
+    display: grid;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+/*ApiDogs*/
+.grid-image {
+    width: 70%;
+    border-radius: 8px;
+    height: 70%;
+    align-items: center;
+    margin: 40px;
+    
+    
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+        150px,
+        1fr
+      )
+
+    );
+    grid-template-rows: repeat(2, 1fr);   
+  }
+
+.main-container-description button{
+  margin-bottom: -10px;
+}
+
+  
+/*search*/
+.main-container-text h2{
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:xx-large;
+  text-align: center ;
+  display: grid;
+  
+
+}
+
+/* src/components/Search.css */
+.search-input {
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+/*Card*/
+  .card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .card-breed {
+    color: #555;
+    margin-bottom: 10px;
+  }
