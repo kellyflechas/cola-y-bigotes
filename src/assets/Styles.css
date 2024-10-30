@@ -1,0 +1,18 @@
+.brand-cola {
+    color: #FFA726;
+    font-weight: bold;
+  }
+  
+  .brand-bigotes {
+    color: #5CD2C6;
+    font-weight: bold;
+  }
+  
+  .nav-link-custom {
+    color: #5CD2C6 !important;
+    margin: 0 10px;
+  }
+  
+  .nav-link-custom:hover {
+    color: #FFA726 !important;
+  }
