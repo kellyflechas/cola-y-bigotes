@@ -4,7 +4,7 @@ import { Heart } from 'react-bootstrap-icons';
 const Home = ({ onViewChange }) => {
   return (
     <div className="container">
-      {/* Seccion de titulos */}
+      
       <header className="text-center my-5">
         <h1 className="display-4 fw-bold mb-3" style={{ color: '#5CD2C6' }}>
           Encuentra a tu compañero perfecto

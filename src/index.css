@@ -7,8 +7,8 @@
   
 
   color-scheme: light dark;
-  color: rgba(33, 33, 33, 0.87); /* Cambia el color del texto */
-  background-color: #ffffff; /* Fondo blanco */
+  color: rgba(33, 33, 33, 0.87); 
+  background-color: #ffffff; 
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -21,7 +21,7 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* Asegura que el fondo sea blanco */
+  background-color: #ffffff; 
 }
 
 body {

@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px; 
-  background-color: #f8f8f8;
+  background-color: #ffff;
   width: 100%; 
   box-sizing: border-box; 
 }
@@ -22,7 +22,7 @@
 }
 
 .logo p {
-  color: #4E5EAA;
+  color: #5CD2C6;;
   font-size: 14px;
   margin: 0;
 }
@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-  color: #4E5EAA;
+  color: #5CD2C6;
   text-decoration: none;
   font-weight: bold;
 }
